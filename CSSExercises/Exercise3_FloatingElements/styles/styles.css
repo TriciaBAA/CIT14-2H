@@ -1,0 +1,12 @@
+
+.box {
+    width: 5%;
+    float: left;
+    border: solid 3px black;
+    padding: 100px;
+
+  }
+  
+  .clearfloat {
+    clear: left;
+  }

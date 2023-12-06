@@ -1,0 +1,86 @@
+/* Default styles for all devices */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .content {
+    padding: 40px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h3 {
+    font-size: 24px;
+  }
+  
+  article p {
+    font-size: 14px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Media queries for different screen sizes */
+  
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+  
+    header {
+      padding: 10px;
+    }
+  
+    nav {
+      text-align: center;
+    }
+  
+    nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .hero {
+      padding: 50px 0;
+    }
+}
+  
