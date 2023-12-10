@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+  color: rgb(19, 61, 38);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+  }
+  
+  .item {
+    padding: 100px;
+    height: 350px;
+    width: 100%;
+    width: 350px;
+    border: 2px solid rgb(19, 61, 38);
+    text-align: center;
+  }
+  
+  .item1 {
+    background-color: #f0f0f0;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img01.jpg");
+  }
+  
+  .item2 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img02.jpg");
+  }
+  
+  .item3 {
+    background-color: #f0f0f0;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img03.jpg");
+  }
+  
+  .item4 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img04.jpg");
+  }
+
+  .item5 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img05.jpg");
+  }
+
+  .item6 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img06.jpg");
+  }
+  
+  .item7 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img07.jpg");
+  }
+  
+  .item8 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img08.jpg");
+  }
+  
+  .item9 {
+    background-color: #f5f5f5;
+    background-image: url("/CSSExercises/Exercise6_GridLayout/img/img09.jpg");
+  }
+  
+  

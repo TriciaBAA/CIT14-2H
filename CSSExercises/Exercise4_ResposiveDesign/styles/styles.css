@@ -1,13 +1,13 @@
-/* Default styles for all devices */
 
 body {
+    background-color: #ffdfe5;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background-color: #f0f0f0;
+    background-color: #ffdfe5;
     padding: 20px;
   }
   
@@ -22,12 +22,9 @@ body {
   }
   
   .hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 100px 0;
+    padding: 0px;
     text-align: center;
-    color: white;
+    color: black;
   }
   
   .hero h2 {
@@ -61,26 +58,31 @@ body {
     text-align: center;
   }
   
-  /* Media queries for different screen sizes */
   
   @media (max-width: 768px) {
-    /* Styles for mobile devices */
+    /* for mobile devices */
   
     header {
       padding: 10px;
     }
   
     nav {
-      text-align: center;
+      text-align: right;
     }
   
     nav a {
-      display: block;
-      margin-bottom: 10px;
+      display: contents;
+      margin-bottom: 5px;
     }
   
     .hero {
-      padding: 50px 0;
+      padding: 0px;
+      text-align: center;
+    }
+
+    footer {
+      padding: 20px 300px 10px;
+      text-align: center;
     }
 }
   
